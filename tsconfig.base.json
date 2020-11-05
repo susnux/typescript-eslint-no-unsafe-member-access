@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.webpack.json",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "outDir": "./build"
+  },
+  "include": [
+    "./src"
+  ],
+  "exclude": [
+    "./node_modules"
+  ]
+}
